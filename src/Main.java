@@ -27,9 +27,7 @@ public class Main {
                     case "-" -> result = num1 - num2;
                     case "*" -> result = num1 * num2;
                     case "/" -> result = num1 / num2;
-                    default -> {
-                        throw new IOException();
-                    }
+                    default -> throw new IOException();
                 }
             } else {
                 throw new IOException();
